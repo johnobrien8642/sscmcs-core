@@ -11,7 +11,7 @@ import {
 import MyImage from './Image';
 import ImageSlider from './ImageSlider';
 import ImageInfo from './ImageInfo';
-import { AssetsType } from '../../pages/models/Assets';
+import { AssetsType } from '@core/models/Assets';
 
 
 const ImageFocus = ({

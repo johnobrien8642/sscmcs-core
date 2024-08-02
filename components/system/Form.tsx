@@ -7,7 +7,7 @@ import {
 } from '@chakra-ui/react';
 import FormFields from './FormFields';
 import { useManagePageForm, ManagePageFormDataType, dataInitialValue } from '@core/contexts/useManagePageForm';
-import { OptionsType } from 'core/models/model-types';
+import { OptionsType } from '@core/models/model-types';
 import { cloneDeep, kebabCase } from 'lodash';
 import axios from 'axios';
 

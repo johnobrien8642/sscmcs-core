@@ -6,7 +6,7 @@ import {
 	Box
 } from '@chakra-ui/react';
 import Link from 'next/link';
-import { AssetsType } from '../../pages/models/Assets';
+import { AssetsType } from '@core/models/Assets';
 
 const ImageInfo = ({ image }: { image: AssetsType }) => {
 	return (

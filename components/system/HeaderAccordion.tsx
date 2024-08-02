@@ -9,7 +9,7 @@ import {
 	AccordionIcon,
 } from '@chakra-ui/react'
 import Link from 'next/link';
-import { PageType } from '../../../pages/models/Page';
+import { PageType } from '@core/models/Page';
 
 const HeaderAccordion = ({ pages }: { pages: PageType[] }) => {
 

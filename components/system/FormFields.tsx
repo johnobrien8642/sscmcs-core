@@ -23,7 +23,7 @@ import ListField from './ListField';
 import { useManagePageForm } from '@core/contexts/useManagePageForm';
 import { templateOptions, assetTypes, textAlignOptions } from '@core/components/types/template_options';
 import { cloneDeep, get, set, startCase } from 'lodash';
-import { OptionsType } from 'core/models/model-types';
+import { OptionsType } from '@core/models/model-types';
 const Editor = dynamic(() => import('./Editor'), { ssr: false });
 
 const FormFields = ({ fieldArr }: { fieldArr?: [string, any][] }) => {

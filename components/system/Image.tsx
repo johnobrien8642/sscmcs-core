@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, useBreakpointValue } from '@chakra-ui/react';
 import Image from 'next/image';
-import { AssetsType } from '../../pages/models/Assets';
+import { AssetsType } from '@core/models/Assets';
 
 const MyImage = ({
 	image,

@@ -17,15 +17,14 @@ import {
 	Spinner
 } from '@chakra-ui/react';
 import { truncate } from 'lodash';
-import { FormSelectedType, useManagePageForm } from '../../contexts/useManagePageForm';
+import { FormSelectedType, useManagePageForm } from '@core/contexts/useManagePageForm';
 import { EditIcon, AddIcon, MinusIcon, RepeatIcon, DeleteIcon } from '@chakra-ui/icons';
 import { remove, cloneDeep } from 'lodash';
 import { useDrag, useDrop } from 'react-dnd';
 // @ts-expect-error there's no types for lodash-move it's old af
 import move from 'lodash-move';
 import { AllDocUnionType, AllDocType, AllDocArrayType, AllDocIntersectionType, AllDocUnionTypeDyn } from '../types/util_types';
-import { OptionsType, allowCrudObj } from '../../../pages/models/model-types';
-import { SchemaNameOptionsType, schemaNameOptionsEnumArr } from '../../../pages/models/model-types';
+import { OptionsType } from '@core/models/model-types';
 
 const ListFieldItem = ({
 	item,

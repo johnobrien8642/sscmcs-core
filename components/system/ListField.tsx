@@ -13,9 +13,8 @@ import {
 	AccordionPanel,
 	AccordionIcon,
 } from '@chakra-ui/react'
-import { dataInitialValue, useManagePageForm } from '../../contexts/useManagePageForm';
-import { assetsEnumValueArr, templatesEnumValueArr } from '../../../pages/models/model-types';
-import { OptionsType } from '../../../pages/models/model-types';
+import { dataInitialValue, useManagePageForm } from '@contexts/useManagePageForm';
+import { assetsEnumValueArr, templatesEnumValueArr, OptionsType } from '@core/models/model-types';
 import { AllDocUnionType } from '../types/util_types';
 import { cloneDeep } from 'lodash';
 import mongoose from 'mongoose';
