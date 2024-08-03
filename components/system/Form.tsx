@@ -11,7 +11,14 @@ import { OptionsType } from '@core/models/model-types';
 import { cloneDeep, kebabCase } from 'lodash';
 import axios from 'axios';
 
-const Form = ({}) => {
+const Form = (
+{ 
+	formType, 
+	pageManagerKey 
+}: { 
+	formType: string; 
+	pageManagerKey: string; 
+}) => {
 	const [fieldArr, setFieldArr] = useState<[string, any][]>([]);
 	const [parentDoc, setParentDoc] = useState<any | null>(null);
 	let [error, setError] = useState('');
